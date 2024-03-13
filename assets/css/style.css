@@ -1149,6 +1149,10 @@
 	transition: var(--transition-default);
 }
 
+.team-card .card-image .ratio {
+	--bs-aspect-ratio: calc(163 / 136 * 100%);
+}
+
 .team-card .card-image img {
 	transition: var(--transition-default);
 }
